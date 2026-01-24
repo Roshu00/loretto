@@ -188,30 +188,22 @@ export const content = {
   },
   location: {
     title: "Lokacija i radno vreme",
-    address: "Uba, blizu Sepkovačkog parka",
-    fullAddress: "Uba, blizu Sepkovačkog parka, Uba, Srbija",
+    address: "Ub, Ulica Prvog maja 15",
+    fullAddress: "Ub, Ulica Prvog maja 15",
     description:
       "Lako pristupačno mesto u srcu grada, sa blizinom znamenitog Sepkovačkog parka koja našem restoranu daje poseban šarm. Idealna lokacija za šetnju posle obroka.",
     hours: {
-      weekdays: "Ponedeljak - Petak: 10:00 - 23:00",
-      saturday: "Subota: 10:00 - 24:00",
-      sunday: "Nedelja: 12:00 - 22:00",
+      weekdays: "Ponedeljak - Petak: 08:00 - 23:00",
+      saturday: "Subota: 08:00 - 24:00",
+      sunday: "Nedelja: 08:00 - 22:00",
     },
     mapEmbed: "placeholder", // Zameniti sa Google Maps embed kodom
   },
-  newsletter: {
-    title: "Prijavite se za novosti",
-    subtitle: "Budite u toku sa našim posebnim ponudama i događajima",
-    description:
-      "Pretplatite se na našu mailing listu i budite prvi koji će saznati za nove menije, specijalne ponude i događaje.",
-    placeholder: "Unesite vašu email adresu",
-    buttonText: "Prijavi se",
-  },
+
   contact: {
-    phone: "+381 XX XXX XXXX", // Zameniti sa pravim brojem
-    email: "info@loretto.rs", // Zameniti sa pravim emailom
+    phone: "+381 65 9507 219", // Zameniti sa pravim brojem
     reservationText:
-      "Za rezervacije stolova ili informacije o iznajmljivanju prostora, kontaktirajte nas putem telefona ili emaila. Rado ćemo odgovoriti na sva vaša pitanja.",
+      "Za rezervacije stolova ili informacije o iznajmljivanju prostora, kontaktirajte nas putem telefona. Rado ćemo odgovoriti na sva vaša pitanja.",
   },
   seo: {
     title: "Loretto Restoran - Uba, blizu Sepkovačkog parka",

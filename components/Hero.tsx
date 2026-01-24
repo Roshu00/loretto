@@ -48,19 +48,23 @@ export function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            <Button
-              size="lg"
-              className="w-full sm:w-auto bg-[#af8338] hover:bg-[#9a7229] text-white border-0 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
-            >
-              Rezervacija stola
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="w-full sm:w-auto bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white hover:bg-white/20 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
-            >
-              Naš meni
-            </Button>
+            <a href="#events">
+              <Button
+                size="lg"
+                className="w-full sm:w-auto bg-[#af8338] hover:bg-[#9a7229] text-white border-0 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              >
+                Iznajmi prostor
+              </Button>
+            </a>
+            <a href="#gallery">
+              <Button
+                variant="outline"
+                size="lg"
+                className="w-full sm:w-auto bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white hover:bg-white/20 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              >
+                Galerija
+              </Button>
+            </a>
           </div>
         </div>
       </div>

@@ -23,11 +23,6 @@ export function Events() {
               <p>{content.events.details}</p>
             </div>
 
-            <div className="pt-4">
-              <Button size="lg">
-                Kontaktirajte nas za rezervaciju
-              </Button>
-            </div>
           </div>
 
           {/* Image placeholder */}
